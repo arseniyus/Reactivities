@@ -22,7 +22,7 @@ public class EditActivity
 
             mapper.Map(request.Activity, activity);
 
-            await context.SaveChangesAsync(cancellationToken);
+            await context.SaveChangesAsync(cancellationToken); ;
 
         }
     }
